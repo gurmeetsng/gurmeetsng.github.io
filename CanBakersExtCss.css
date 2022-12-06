@@ -1,17 +1,17 @@
 body{
 	margin:0px;
 }
-.topSection, .navSection{
+.topSection, .navSection .footerSection{
 	display: grid;
 }
 .logoGridCenter{
 	grid-row: 1/2; 
-	grid-column: 1/4; 
+	grid-column: 1/5; 
 	text-align:center;
 }
 .topSectionRightSocialMedia{
 	grid-row: 1/2; 
-	grid-column: 3/4; 
+	grid-column: 3/5; 
 	text-align:right;
 	padding-right:20px;
 	
@@ -29,27 +29,27 @@ body{
 	text-align:center;
 }
 .menuLeft{				
-	font-family: 'Yesteryear', cursive;
+	font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 0.8rem!important;
 	line-height: 50px;
 	font-weight: 700!important;			
 }
 .logo{				
-	font-family: 'Yesteryear', cursive;
+	font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 1.9rem!important;
 	line-height: 50px;
 	font-weight: 800;
 	color:#ffffff;
 }
 .signupRight{				
-	font-family: 'Yesteryear', cursive;
+	font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 0.8rem!important;
 	line-height: 50px;
 	font-weight: 700!important;				
 }
 .signupGridRight{
 	grid-row: 1/2;
-	grid-column: 3/4;
+	grid-column: 3/5;
 	text-align:right;
 	padding-right:20px;
 	
@@ -61,6 +61,7 @@ body{
 .navSection{
 	height:60px;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	display: grid;
 }
 .contentSection{
 	height:200px;
@@ -101,6 +102,7 @@ a{
     padding-bottom: 1.6rem!important;
     padding-top: 1.6rem!important;
 }
+
 .fp1 {
 	padding: 2.5rem!important;
     padding-bottom: 1.2rem!important;
@@ -114,6 +116,42 @@ a{
 .lg-flex {
     display: flex!important;
 }
-.listItems{
-	display: list-item!important;
+.footerGrids{
+	display:grid;
+	padding-bottom: 10px!important;
+	box-shadow: 0px 2px rgba(0,0,0,.1);
+}
+.footerGrid1{
+	grid-row: 1/2; 
+	grid-column: 1/2; 
+	text-align:left;
+}
+.footerGrid2{
+	grid-row: 1/2; 
+	grid-column: 2/3; 
+	text-align:left;
+}
+.footerGrid3{
+	grid-row: 1/2; 
+	grid-column: 3/4; 
+	text-align:left;
+}
+.footerGrid4{
+	grid-row: 1/2; 
+	grid-column: 4/5; 
+	text-align:left;
+}
+.footerGrid5{
+	grid-row: 1/2; 
+	grid-column: 1/5; 
+	text-align:left;
+}
+.footerListItems{
+	display: flex!important;
+    padding-top: 0.8rem!important;
+    padding-bottom: 0.8rem!important;
+    padding-left: 0px!important;
+}
+.fmt{
+	margin-top:1.6rem!important;
 }
