@@ -79,9 +79,7 @@ nav, section, main, footer{
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	display: grid;
 }
-.contentSection{
-	
-}
+
 footer {
     bottom: 0;
     color:black;
@@ -189,6 +187,9 @@ a{
 	border-bottom: 3px solid rgb(200, 16, 46);
 }
 .subMenu:hover{
+	display: visible;
+}
+.subMenuOnHover{
 	display: visible;
 }
 .flexDisplay{
