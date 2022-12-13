@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="CanBakersExtCss.css">
+		<link rel="stylesheet" href="signup.css">
 	</head>
 	<body>
 		<div id="wrapper"> 
@@ -63,53 +64,28 @@
 			</div>
 		</nav>
 		</div>
-		<main>
-		<div class="container-block">			
-			<div class="">
-				<div class="">
-					<section class="s1">
-						<div class="s1OuterDiv flexDisplay">
-							<div class="s1LeftDiv item-col-2">
-								<div class="s1LFlexInsideFlex">
-									<h1 class="">
-										<span class="bigTextSpam1">Celebrate this Christmas</span><br><span class="bigTextSpam2">with</span><span class="bigTextSpam3"> CanBakers</span>
-									</h1>
-									<h5 class="s1H5Set">
-										<span class="bigTextSpam1">This Christmas we are throwing</span><br>
-										<span class="bigTextSpam2">special gifts on every online order*</span>
-									</h5>
-									<div style="text-align: center;">
-										<a class="button" href="#" style="min-width: 35px; min-height: 35px;">Order Now</a>
-									</div>
-								</div>
-							</div>
-							<div class="item-col-2">
-								<img src="images/s1.png" class="s1RightImg" alt="CupCakes">
+		<main class="signUpPage">
+		<div class="signUpContainer">			
+			<div class="contentSection ">
+				<div class="sectionsList">
+					<section class="signup1">
+						<div id="signup"> 
+							<h1 style="text-align: center; font-size: xx-large;">Sign in or create an account</h1>
+							<div class="signUpPageContainer">
+								<form action="">
+									<p class=""><span class="">* </span>indicates required field</p>
+									<label for="email">* Username or email address</label>
+									<input type="text" id="email" name="email" placeholder="*Username or email address">
+
+									<label for="password">* Password</label>
+									<input type="text" id="password" name="password" placeholder="*Password">
+								
+									<input type="submit" value="Send" onclick="submitQuery()">
+								</form>
 							</div>
 						</div>						
 					</section>
-					<section class="s2">
-						<div class="flexDisplay">
-							
-							<div class="item-col-2">
-								<img src="images/chocochip.jpg" class="s2LeftImg" alt="Chocochip Cookie">
-							</div>
-							<div class="item-col-2">
-								<div class="s1LFlexInsideFlex">
-									<h1 class="">
-										<span class="bigTextSpam1">Have tasted our new</span><br><span class="bigTextSpam2">Chocochip Cookie?</span>
-									</h1>
-									<h5 class="s1H5Set">
-										<span class="bigTextSpam1">No? Who are you waiting for?</span><br>
-										<span class="bigTextSpam2">Yes? You must have it again.</span>
-									</h5>
-									<div style="text-align: center;">
-										<a class="button" href="#" style="min-width: 35px; min-height: 35px;">More Info</a>
-									</div>
-								</div>
-							</div>
-						</div>						
-					</section>
+					
 				</div>
 			</div>
 		</div>
